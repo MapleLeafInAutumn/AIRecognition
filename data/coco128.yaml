@@ -13,9 +13,9 @@ val: images/val  # root下的验证集地址 128 images
 test:                # root下的验证集地址 128 images
 
 # 数据集类别信息
-nc: 8  # 数据集类别数量
+nc: 6  # 数据集类别数量
 names: [ 'jing_ru_dao_cha_right_open', 'jing_ru_dao_cha_left_open', 'hu_gui_li_kai', 'hu_gui_jing_ru',
-         'fu_gui_to_dao_cha_right_open', 'fu_gui_to_dao_cha_right_open','fu_gui_to_dao_cha_left_open','fu_gui_to_dao_cha_left_open'
+         'fu_gui_to_dao_cha_right_open', 'fu_gui_to_dao_cha_left_open'
           ]  # 数据集类别名
 
 # 数据集下载地址
